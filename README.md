@@ -1,6 +1,6 @@
 # LotteryApp - 抽獎應用程式
 
-Design by 石瑞慶(Leon Shih)
+Design by Leon
 
 這是一個基於 WinUI 3 開發的桌面抽獎應用程式，專為公司或團體活動設計，提供「獎品抽獎」與「賓果抽獎」兩種模式，並具備優雅的深色玻璃風格與現代化介面。
 
