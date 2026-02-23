@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="lotteryapp.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:lotteryapp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <TabView VerticalAlignment="Stretch" HorizontalAlignment="Stretch" IsAddTabButtonVisible="False">
+            <TabViewItem Header="獎品抽獎 Prize Draw" IsClosable="False">
+                <TabViewItem.IconSource>
+                    <SymbolIconSource Symbol="List"/>
+                </TabViewItem.IconSource>
+                <Frame x:Name="PrizeDrawFrame" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+            </TabViewItem>
+            <TabViewItem Header="賓果抽獎 Bingo Draw" IsClosable="False">
+                <TabViewItem.IconSource>
+                    <SymbolIconSource Symbol="OutlineStar"/>
+                </TabViewItem.IconSource>
+                <Frame x:Name="BingoDrawFrame" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+            </TabViewItem>
+            <TabViewItem Header="關於 About" IsClosable="False">
+                <TabViewItem.IconSource>
+                    <SymbolIconSource Symbol="Important"/>
+                </TabViewItem.IconSource>
+                <Frame x:Name="AboutFrame" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+            </TabViewItem>
+        </TabView>
+    </Grid>
+</Page>

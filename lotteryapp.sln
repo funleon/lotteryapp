@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lotteryapp", "lotteryapp.csproj", "{72B9C705-D987-40E5-9604-0D26EF93B817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B9C705-D987-40E5-9604-0D26EF93B817}.Debug|Any CPU.ActiveCfg = Release|x64
+		{72B9C705-D987-40E5-9604-0D26EF93B817}.Debug|Any CPU.Build.0 = Release|x64
+		{72B9C705-D987-40E5-9604-0D26EF93B817}.Debug|Any CPU.Deploy.0 = Release|x64
+		{72B9C705-D987-40E5-9604-0D26EF93B817}.Release|Any CPU.ActiveCfg = Release|x86
+		{72B9C705-D987-40E5-9604-0D26EF93B817}.Release|Any CPU.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5369415F-CED8-4014-BB77-E5B035C129C1}
+	EndGlobalSection
+EndGlobal

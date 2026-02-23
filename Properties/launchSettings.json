@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "lotteryapp (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "lotteryapp (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

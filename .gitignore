@@ -1,0 +1,48 @@
+# Build Results
+/bin/
+/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+/packages/
+!/packages/build/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Excel temp files (if opened)
+~$*.xlsx
+
+# Temporary files
+*.log
+*.tmp
+*.txt
+
+# Antigravity setting
+lotteryapp.code-workspace
+GEMINI.md
+.brain
+
+# PublishOutput
+PublishOutput
+Release
+bin
+obj
+Dist
+!lotteryapp_Portable.zip
+
+# Personal
+Data
